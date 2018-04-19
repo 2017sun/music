@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+var xhr=new XMLHttpRequest();
+xhr.open("get","/music/cate.json",true);
+xhr.send()
+xhr.onload=function(data){
+  console.log(data)
+}
+</script>
+</body>
+</html>
